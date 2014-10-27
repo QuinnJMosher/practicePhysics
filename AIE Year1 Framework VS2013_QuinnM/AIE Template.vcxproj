@@ -92,6 +92,7 @@
   <ItemGroup>
     <ClCompile Include="include\Entity.h" />
     <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\Vector2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\BoxColider2D.h" />

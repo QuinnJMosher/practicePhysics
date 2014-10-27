@@ -21,6 +21,9 @@
     <ClCompile Include="include\Entity.h">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Vector2.h">
