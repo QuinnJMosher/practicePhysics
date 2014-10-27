@@ -7,8 +7,12 @@ public:
 	Vector2(float in_x, float in_y);
 	~Vector2();
 
-	void operator +=(Vector2 other);
-	void operator -=(Vector2 other);
+	void operator+=(Vector2 &other);
+	void operator-=(Vector2 &other);
+	void operator=(Vector2 &other);
+
+	Vector2 operator+(Vector2 &other);
+	Vector2 operator-(Vector2 &other);
 
 	float x;
 	float y;
