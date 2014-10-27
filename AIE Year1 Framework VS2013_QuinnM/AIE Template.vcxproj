@@ -90,7 +90,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="include\Entity.h" />
     <ClCompile Include="source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BoxColider2D.h" />
+    <ClInclude Include="include\Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
