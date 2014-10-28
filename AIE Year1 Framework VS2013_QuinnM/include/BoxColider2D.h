@@ -5,7 +5,6 @@
 
 class BoxColider2D {
 public:
-	BoxColider2D();
 	BoxColider2D(Vector2 in_position, float in_width, float in_height);
 	BoxColider2D(float in_x, float in_y, float in_width, float in_height);
 	~BoxColider2D();
